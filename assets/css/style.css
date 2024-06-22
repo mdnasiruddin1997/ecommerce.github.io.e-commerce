@@ -1,0 +1,87 @@
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#ffffff;
+}
+
+.catagoris{
+    padding:2rem;
+    text-align: center;
+}
+.catagoris-list{
+    overflow: hidden;
+    margin: 0  ;
+}
+.catagori{
+    float: left;
+    width: 23%;
+    background-color: #F85606;
+    margin: 1%;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid snow;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+.catagori:hover{
+        background-color: navy;
+       
+}
+.catagori a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.product-list{
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.Product{
+    display: grid;
+    float: left;
+    width: 23%;
+    background-color: #ffffff ;
+    margin: 1%;
+    padding: 1.3rem;
+    box-sizing: border-box;
+    border: 1px solid #ddd;;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    transition: box-shadow 0.3s ease;
+    justify-content: center;
+}
+
+.Product:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0.1, 0.2);
+}
+
+.Product img{
+    max-width: 100%;
+    border-radius: 10px;
+    height: 280px;
+    width: 450px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #ffff;
+    color: black;
+    border: 2px solid;
+}
